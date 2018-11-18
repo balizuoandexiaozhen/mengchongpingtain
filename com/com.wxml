@@ -1,0 +1,3 @@
+<!--com/com.wxml-->
+<text>first{{d}}</text>
+<button bindtap="send">发送</button>

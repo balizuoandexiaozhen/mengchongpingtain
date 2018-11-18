@@ -1,0 +1,11 @@
+<!--pages/detail/detail.wxml-->
+<view>
+  <view class="com">{{detail.address}}</view>
+  <view class="type com">
+    <image class="img" src="/resources/{{detail.type?detail.type:'buy'}}.png"></image>
+    <view>{{detail.type==="buy"?"求购":"转让"}}</view>
+  </view>
+
+  <view class="com">{{detail.msg}}</view>
+  <view class="com">{{detail.contact}}</view>
+</view>

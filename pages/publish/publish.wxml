@@ -1,0 +1,22 @@
+<!--pages/publish/publish.wxml-->
+<import src="./template.wxml"/>
+<view>
+  <view class="row">
+    <label>我的地址</label>
+    <view bindtap='location'>{{location}}</view>
+  </view>
+  <view class="row">
+    <label>类型</label>
+    <radio-group class="radio-group" bindchange="radioChange">
+      <radio value="buy" />求购
+      <radio value="sell" checked="true"/>转让
+    </radio-group>
+  </view>
+  <template is="template" data="{{info}}"></template>
+  <!-- <template is="template" data="{{contect}}"></template> -->
+  <view class="row">
+    <label>联系方式</label>
+    <input placeholder='填写您的联系方式' bindinput='inputtel'></input>
+  </view>
+  <button bindtap='pub' class="pub">发布信息</button>
+</view>

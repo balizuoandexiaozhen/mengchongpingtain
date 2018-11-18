@@ -1,0 +1,41 @@
+/* pages/search/search.wxss */
+.head {
+  display: flex;
+  justify-content: space-between;
+  padding: 10rpx 20rpx;
+  background: #03bbd5;
+}
+
+.search {
+  flex: 1;
+  background: #fff;
+  border-radius: 10rpx;
+  padding-left: 30rpx;
+  font-size: 30rpx;
+}
+
+.head .txt {
+  color: #fff;
+  margin: 0 20rpx;
+}
+
+.content {
+  background: #f3f3f3;
+  min-height: 1100rpx;
+}
+
+.list {
+  margin-bottom: 20rpx;
+  background: #fff;
+  padding: 20rpx;
+}
+
+.location {
+  margin-bottom: 20rpx;
+  color: #ff9700;
+  font-size: 34rpx;
+}
+
+.msg {
+  font-size: 38rpx;
+}

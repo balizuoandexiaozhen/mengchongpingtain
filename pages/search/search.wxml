@@ -1,0 +1,14 @@
+<!--pages/search/search.wxml-->
+<view>
+  <view class="head">
+    <input class="search" bindinput='input'></input>
+    <view class="txt">搜索</view>
+  </view>
+  <view class="content">
+    <view class="list" wx:for="{{list}}" wx:key="{{item.id}}" bindtap='detail'  data-id="{{item.id}}">
+      <view class="location">{{item.address}}({{item.type==="buy"?"求购":"转让"}})</view>
+      <view class="msg">{{item.msg}}</view>
+    </view>
+  </view>
+  
+</view>

@@ -1,0 +1,58 @@
+{
+  "list": [
+    {
+      "type": "buy",
+      "address": "北京市昌平区政府街19号",
+      "latitude": 40.22077,
+      "longitude": 116.23128,
+      "msg": "大书法家的快捷付款",
+      "contact": "233",
+      "id": 1
+    },
+    {
+      "type": "sell",
+      "address": "北京市昌平区南大街12号(工商银行对面)",
+      "latitude": 40.22175,
+      "longitude": 116.23374,
+      "msg": "时间都几点睡",
+      "contact": "23344444",
+      "id": 2
+    },
+    {
+      "type": "buy",
+      "address": "北京市昌平区",
+      "latitude": 40.19745,
+      "longitude": 116.18806,
+      "msg": "大神的市场",
+      "contact": "时代大厦",
+      "id": 3
+    },
+    {
+      "type": "buy",
+      "address": "北京市昌平区西沙屯西桥(北六环)",
+      "latitude": 40.17132,
+      "longitude": 116.24162,
+      "msg": "担惊受恐接口",
+      "contact": "31273898",
+      "id": 5
+    },
+    {
+      "type": "buy",
+      "address": "北京市昌平区",
+      "latitude": 40.1916,
+      "longitude": 116.28569,
+      "msg": "的撒范德萨",
+      "contact": "23454656",
+      "id": 6
+    },
+    {
+      "type": "sell",
+      "address": "北京市昌平区十三陵镇",
+      "latitude": 40.257946,
+      "longitude": 116.225167,
+      "msg": "丰富程度高",
+      "contact": "38209394",
+      "id": 7
+    }
+  ]
+}

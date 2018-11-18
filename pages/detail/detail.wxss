@@ -1,0 +1,19 @@
+/* pages/detail/detail.wxss */
+.com {
+  padding: 30rpx;
+  color: rgb(166, 166, 166);
+  border-bottom: 2rpx solid #ccc;
+}
+
+.type {
+  display: flex;
+  width: 100%;
+  justify-content: flex-start;
+  align-items: center;
+  border-bottom: 2rpx solid #ccc;
+}
+
+.img {
+  width: 80rpx;
+  height: 80rpx;
+}

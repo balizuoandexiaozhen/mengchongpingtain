@@ -1,0 +1,6 @@
+<template name="template">
+   <view class="row">
+    <label>{{info.title}}</label>
+    <input placeholder='{{info.msg}}' bindinput='inputdesc'></input>
+  </view>
+</template>
